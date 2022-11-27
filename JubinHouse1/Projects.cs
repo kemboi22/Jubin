@@ -36,6 +36,10 @@ namespace JubinHouse1
             {
                 new EmployeeDashBoard().Show();
                 this.Hide();
+            }else if (CommonFunctions.Global.role == "Architect")
+            {
+                new ArchitectDashboard().Show();
+                this.Hide();
             }
             
             
